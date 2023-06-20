@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;700;800&display=swap');
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-cuadro: #000000;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+#Hero-slides h5{
+	border: 1.5px solid #FFFF;
+	padding: 15px;
+}
+
+#intro h4{
+	color: #FFFF;
+	font-size: 13px;
+}
+
+#intro{
+	
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.carousel-caption{
+	text-align: left;
+}
+
+
+#intro p{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+#intro h3{
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+
+
+#cta{
+	
+	background-color: var(--color-rojo);
+	padding: 120px;
+	background-image: url("../img/bg-parallax.png");
+	margin-top: 90px;
+}
+
+#cta h2{
+	color: #FFFFFF; 
+}
+
+#cta p{
+	color: #FFFFFF;
+}
+
+.btn-dark{
+background-color: transparent;
+border-bottom-left-radius: 0;
+border-color: #FFFFFF;
+}
+
+#productos h4{
+	font-size: 14px;
+	color: #FFF;
+}
+
+#productos h2{
+ 	border: 1px solid #FFFFFF;
+	padding: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size:20px;
+ margin: 15px 40%;
+}
+span{
+	font-size: 13px;
+	color: var(--color-rojo);
+}
+
+#productos p{
+	font-size: 15px;
+	color: #606060;
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 25px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+.card{
+	background-color: #161616;
+}
+.cuadro-negro {
+	background-color: var(--color-cuadro);
+	color: #ffffff;
+    padding: 30px;
+}
+
+hr{
+	color: #FFFFFF;
+	width: 90px;
+}
